@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 
 import bgPattern from "../assets/bg-pattern.png";
-import mandala from "../assets/mandala-corner.png"; // right corner decoration (optional)
+import mandala from "../assets/mandala-corner.png"; 
 
 const API_ENDPOINT = "https://vernanbackend.ezlab.in/api/contact-us/";
 
@@ -69,7 +69,7 @@ export default function Contact() {
 
       const data = await res.json();
 
-      // success case (expects 200 and created object)
+     
       console.log("API response:", data);
       setSuccess(true);
       setForm({ name: "", email: "", phone: "", message: "" });

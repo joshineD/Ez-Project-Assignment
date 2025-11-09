@@ -6,7 +6,7 @@ A responsive single-page React.js web app built with **Vite** and **Tailwind CSS
 - Fully responsive pixel-perfect design.
 - Functional collapsible Navbar (desktop + mobile).
 - Integrated pages: Home, Services, Their Stories, Varnan (Portfolio), Contact.
-- Smooth navigation using React Router.
+- Smooth navigation with **React Router DOM**.
 
 ## 🛠️ Tech Stack
 - React.js (Vite)

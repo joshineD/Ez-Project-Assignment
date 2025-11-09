@@ -73,12 +73,12 @@ export default function AboutTeam() {
 
               
 
-              {/* ---------- Art Curators (right side, pointing inward) ---------- */}
+              
               <div
                 className="hidden sm:flex flex-col items-center absolute"
                 style={{
-                  top: "2%",         // pulled up a bit
-                  right: "2%",       // moved inside so it points at right-most figure
+                  top: "2%",         
+                  right: "2%",       
                   zIndex: 28,
                   transform: "rotate(12deg)",
                 }}
@@ -92,7 +92,7 @@ export default function AboutTeam() {
                 </div>
               </div>
 
-              {/* ---------- Branding Experts (left near monument) ---------- */}
+              
               <div
                 className="hidden md:flex flex-col items-center absolute"
                 style={{
@@ -112,7 +112,7 @@ export default function AboutTeam() {
               </div>
             </div>
 
-            {/* Subtitle / CTA under silhouettes */}
+            
             <div className="text-center mt-10">
               <p
                 className="text-lg md:text-xl text-gray-800 mb-6"
@@ -133,7 +133,7 @@ export default function AboutTeam() {
             </div>
           </div>
 
-          {/* bottom small decorative line */}
+          
           <div className="absolute left-0 right-0 bottom-2 text-center text-xs text-gray-400 z-10">
             <span className="opacity-60">—</span>
           </div>

@@ -33,7 +33,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
 
-  // ✅ Close mobile nav on route change
+  //  Close mobile nav on route change
   useEffect(() => {
     setOpen(false);
   }, [location.pathname]);
@@ -94,7 +94,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* ✅ MOBILE MENU (works perfectly now) */}
+      {/* MOBILE MENU (works perfectly now) */}
       {open && (
         <div className="md:hidden bg-white border-t border-gray-200 shadow-lg w-full absolute top-full left-0 z-40">
           <div className="px-6 py-4 flex flex-col gap-4">

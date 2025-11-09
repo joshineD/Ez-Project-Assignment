@@ -1,6 +1,6 @@
 import React from "react";
 import mandala from "../assets/mandala.svg";
-import logo from "../assets/logo.png"; // ✅ your logo image
+import logo from "../assets/logo.png";
 import bgPattern from "../assets/bg-pattern.png";
 
 export default function Hero() {
@@ -37,7 +37,7 @@ export default function Hero() {
                   alt="V Films Logo"
                   className="object-contain"
                   style={{
-                    width: "150px", // ✅ adjust size as per your Figma/screenshot
+                    width: "150px",
                     height: "auto",
                     filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.15))",
                   }}
@@ -55,7 +55,7 @@ export default function Hero() {
                 style={{
                   fontFamily: "'Dancing Script', cursive",
                   color: "#1E3A5F",
-                  fontSize: "68px", // adjust if you need finer match
+                  fontSize: "68px", 
                   lineHeight: 1.02,
                   fontWeight: 400,
                   whiteSpace: "pre-line",

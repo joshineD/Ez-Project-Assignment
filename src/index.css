@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
+@import "tailwindcss";
+
 .logo-serif {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
-
-
-/* index.css (top) */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-
-@import "tailwindcss";
 
 @keyframes mandala-rotate {
   from { transform: rotate(0deg); }
