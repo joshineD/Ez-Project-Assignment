@@ -13,8 +13,8 @@ A responsive single-page React.js web app built with **Vite** and **Tailwind CSS
 - Tailwind CSS
 - React Router DOM
 
-## 📸 Preview
-![Screenshot](./src/assets/preview.png)
+🚀 Live Demo
+Check out the app live: https://react-ez-assignment.netlify.app/
 
 ## 🧩 Run Locally
 ```bash
